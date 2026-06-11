@@ -5,7 +5,7 @@ declare namespace Acode {
    */
   interface FileList {
     /**  Get all files in a folder */
-    (dir: string | (() => object)): Tree[];
+    (dir: string | (() => object)): Tree;
 
     /**
      * Adds event listener for file list
